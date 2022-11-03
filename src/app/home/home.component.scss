@@ -1,0 +1,27 @@
+img {
+    height: 500px;
+    width: auto;
+    object-fit: scale-down;
+}
+
+.row {
+    padding-top: 5%;
+    padding-bottom: 2%;
+}
+
+@media screen and (max-width: 600px) {
+    img {
+        width: 100%;
+    }
+
+    .row {
+        width: 100%;
+        margin-left: 0%;
+        padding-left: 0%;
+    }
+
+    body {
+        margin: 0%;
+        padding: 0%;
+    }
+}

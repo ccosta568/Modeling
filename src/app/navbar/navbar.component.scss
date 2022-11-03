@@ -1,0 +1,44 @@
+#name {
+    color: black;
+    font-weight: bold;
+    font-family: "Input Mono Narrow Bold", "Input Mono Narrow Bold", monospace;
+    font-size: 32px;
+    padding-top: 5%;
+}
+
+#style {
+    font-size: 20px;
+    color: black;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.bi{
+    padding-left: 6%;
+    font-size: 22px;
+    padding-bottom: 1%;
+    display: inline;
+    width: 25%;
+}
+a{
+    display: inline;
+    width: 30%;
+}
+.bi-tiktok{
+    margin-left: 18%;
+}
+nav{
+    height:100vh;
+}
+@media screen and (max-width: 600px) {
+    nav{
+        width:100vw;
+    }
+    .bi{
+        padding-left: 5%;
+    }
+    .bi-tiktok{
+        margin-left: 10%;
+        height:28px;
+        width:28px;
+    }
+  }

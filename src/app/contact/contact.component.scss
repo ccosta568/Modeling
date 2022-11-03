@@ -1,0 +1,22 @@
+h1 {
+    text-align: center;
+    padding-bottom: 1%;
+    padding-top: 10%;
+}
+
+p {
+    text-align: center;
+    font-size: 20px;
+}
+
+div {
+    padding-right: 20%;
+}
+
+@media screen and (max-width: 600px) {
+    div {
+        padding-left: 10%;
+        padding-bottom: 0%;
+        margin-bottom: 10%;
+    }
+}

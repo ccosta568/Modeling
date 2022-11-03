@@ -1,0 +1,41 @@
+img {
+    height: 500px;
+    width: 500px;
+}
+
+h1 {
+    text-align: center;
+    padding-bottom: 1%;
+    color: #444444;
+    font-family: "Aften Screen Bold", "Aften Screen Bold", sans-serif;
+    line-height: 1.4 !important;
+    font-size: 48px;
+    font-weight: bold;
+    margin-right: 25%;
+}
+
+p {
+    color: #444444;
+    font-size: 18px;
+    font-family: "Aften Screen Regular", "Aften Screen Regular", sans-serif;
+    line-height: 1.5;
+}
+
+span {
+    padding-left: 3%;
+}
+
+@media screen and (max-width: 600px) {
+    div {
+        padding-left: 5%;
+    }
+
+    span {
+        padding-left: 10%;
+    }
+
+    img {
+        height: 150px;
+        width: 150px;
+    }
+}

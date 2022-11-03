@@ -1,0 +1,30 @@
+#big {
+    width: 145px;
+}
+
+#small {
+    width: 90px;
+}
+
+ul {
+    text-align: center;
+}
+
+figcaption {
+    font-size: 32px;
+    font-weight: bold;
+    margin-left: 46%;
+    padding-top: 2%;
+    padding-bottom: 1%;
+}
+
+figure {
+    margin-left: 40%;
+}
+
+@media screen and (max-width: 600px) {
+    div {
+        padding-right: 15%;
+        padding-bottom: 5%;
+    }
+}
