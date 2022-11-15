@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { PicDetailsService } from '../service/pic-details.service';
 
 @Component({
   selector: 'app-home',
@@ -7,9 +8,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
-
+  constructor(private service:PicDetailsService) { }
+  picData:any;
   ngOnInit(): void {
+    this.picData = this.service.picDetails;
   }
 
 }
