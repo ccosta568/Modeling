@@ -10,10 +10,10 @@ Built with an angular framework, mostly html, css and typescript. AWS for domain
 
 ## Optimizations
 1. Randomize pictures shown on home page when refresh
-2. nav bar header from col to row
-3.clean up mobile view of supporting pages
+2. Nav bar header from col to row
+3. Clean up mobile view of supporting pages
 
 ## Lessons Learned
 1. Service file interacting with NgFor in Angular
 2. AWS bucket configurations
-3. bootstrap containers
+3. Bootstrap containers
