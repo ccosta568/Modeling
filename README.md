@@ -3,7 +3,7 @@ Model website, purpose of this git is to show off ability to provide quality web
 
 Visit www.christophercosta.net to see the live version
 
-![](https://github.com/ccosta568/ElainePascale/blob/main/src/assets/img/author.gif)
+![](https://github.com/ccosta568/Modeling/blob/main/src/assets/img/modelgif.gif)
 
 ## How It's Made
 Built with an angular framework, mostly html, css and typescript. AWS for domain, buckets and website hosting. Google SEO added for search optimization. Adobe and Paint for picture and video quality and sizing. 
